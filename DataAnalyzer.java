@@ -1,0 +1,50 @@
+public class DataAnalyzer {
+    public static int[] reverseList(int[] numbers){
+        for (int i = 0; i < numbers.length / 2; i++) {
+            // Store the element from the left side
+            int temp = numbers[i];
+            // Put the right side element into the left position
+            numbers[i] = numbers[numbers.length - 1 - i];
+            // Put the stored left element into the right position
+            numbers[numbers.length - 1 - i] = temp;
+        }
+        return numbers;
+    }
+    //binary search
+    public static int searchList(int[] numbers, int target){
+        
+        int low = 0;
+        int high = numbers.length - 1;
+    
+        while (low <= high) {
+            int index = (high+low)/2;
+            if (target == numbers[index]) {
+                return index;
+            } else if (target < numbers[index]){
+                high = index - 1;
+            } else {
+                low = index + 1;
+            }
+        }
+        return -1;
+    }
+    // // linear search
+    // public static int searchList(int[] numbers, int target){
+    //     int index = 0;
+    //     while(index <= numbers.length - 1){
+    //         if (numbers[index] == target){
+    //             return index;
+    //         }
+    //         index++;
+    //     }
+    //     return -1;
+    // }
+    public static void main(String[] args){
+        int[] arr = {10, 20, 30, 40, 50};
+        System.out.println(searchList(arr, 50));
+        int[] reversearr = (reverseList(arr));
+        for (int i=0; i < reversearr.length; i++){
+            System.out.println(reversearr[i]);
+        }
+    }
+}
