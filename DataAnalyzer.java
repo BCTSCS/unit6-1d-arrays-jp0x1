@@ -58,7 +58,7 @@ public class DataAnalyzer {
                 System.out.println("file not found");
         }
         
-        System.out.println(searchList(arr, 81));
+        System.out.println(searchList(arr, 32));
         int[] reversearr = (reverseList(arr));
         for (int i=0; i < reversearr.length; i++){
             System.out.print(reversearr[i] + " ");
