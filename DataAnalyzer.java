@@ -1,3 +1,8 @@
+import java.util.Scanner;
+import java.io.IOException;
+import java.io.File;
+import java.util.*;
+
 public class DataAnalyzer {
     public static int[] reverseList(int[] numbers){
         for (int i = 0; i < numbers.length / 2; i++) {
@@ -11,40 +16,52 @@ public class DataAnalyzer {
         return numbers;
     }
     //binary search
-    public static int searchList(int[] numbers, int target){
-        
-        int low = 0;
-        int high = numbers.length - 1;
-    
-        while (low <= high) {
-            int index = (high+low)/2;
-            if (target == numbers[index]) {
-                return index;
-            } else if (target < numbers[index]){
-                high = index - 1;
-            } else {
-                low = index + 1;
-            }
-        }
-        return -1;
-    }
-    // // linear search
     // public static int searchList(int[] numbers, int target){
-    //     int index = 0;
-    //     while(index <= numbers.length - 1){
-    //         if (numbers[index] == target){
+        
+    //     int low = 0;
+    //     int high = numbers.length - 1;
+    
+    //     while (low <= high) {
+    //         int index = (high+low)/2;
+    //         if (target == numbers[index]) {
     //             return index;
+    //         } else if (target < numbers[index]){
+    //             high = index - 1;
+    //         } else {
+    //             low = index + 1;
     //         }
-    //         index++;
     //     }
     //     return -1;
     // }
+    // // linear search
+    public static int searchList(int[] numbers, int target){
+        int index = 0;
+        while(index <= numbers.length - 1){
+            if (numbers[index] == target){
+                return index;
+            }
+            index++;
+        }
+        return -1;
+    }
     public static void main(String[] args){
-        int[] arr = {10, 20, 30, 40, 50};
-        System.out.println(searchList(arr, 50));
+        int[] arr = new int[100];
+        try {
+                File f = new File("./numbers.txt");
+                Scanner input = new Scanner(f);
+                for (int i=0; i < 100; i++){
+                    arr[i] = input.nextInt();
+                }
+                
+                
+            } catch(IOException e){
+                System.out.println("file not found");
+        }
+        
+        System.out.println(searchList(arr, 81));
         int[] reversearr = (reverseList(arr));
         for (int i=0; i < reversearr.length; i++){
-            System.out.println(reversearr[i]);
+            System.out.print(reversearr[i] + " ");
         }
     }
 }
