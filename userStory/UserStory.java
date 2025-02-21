@@ -90,12 +90,12 @@ public class UserStory {
             
             for (int j = i+1; j < n; j++) {
                 if (arr[j] < arr[minIdx]) {
-                    minIdx = j;
+                    minIndx = j;
                 }
             }
             
-            int temp = arr[minIdx];
-            arr[minIdx] = arr[i];
+            int temp = arr[minIndx];
+            arr[minIndx] = arr[i];
             arr[i] = temp;
         }
     }
@@ -109,8 +109,5 @@ public class UserStory {
         analysis.getAverageCapacity();
         analysis.getMedianCapacity();
         analysis.getModeCapacity();
-        
-        
-        analysis.filterArenasByCapacity(19000);
     }
 }
