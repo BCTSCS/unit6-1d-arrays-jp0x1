@@ -41,4 +41,23 @@ public class FileOperator {
         }
         return arr;
     }
+
+    public ArrayList<Integer> toIntList() {
+        ArrayList<Integer> result = new ArrayList<Integer>();
+        while (fileReader.hasNextInt()){
+            result.add(fileReader.nextInt());
+        }
+    }
+    public ArrayList<String> toStringList() {
+        ArrayList<String> result = new ArrayList<String>();
+        while (fileReader.hasNextLine()){
+            result.add(fileReader.nextLine());
+        }
+    }
+    public ArrayList<Double> toDoubleList() {
+        ArrayList<String> result = new ArrayList<String>();
+        while (fileReader.hasNextDouble()){
+            result.add(fileReader.nextDouble());
+        }
+    }
 }

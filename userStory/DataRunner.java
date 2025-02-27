@@ -25,6 +25,6 @@ public class DataRunner {
   public static void main(String[] args) {
     FileOperator capacities = new FileOperator("./capacities.txt");
     FileOperator arenas = new FileOperator("./arenas.txt");
-
+    input.setFile
   }
 }
