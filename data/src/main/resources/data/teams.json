@@ -1,0 +1,212 @@
+[
+    {
+      "name": "Boston Celtics",
+      "location": "Boston",
+      "arena": "TD Garden",
+      "num_championships": 17,
+      "capacity": 18624
+    },
+    {
+      "name": "Brooklyn Nets",
+      "location": "Brooklyn",
+      "arena": "Barclays Center",
+      "num_championships": 0,
+      "capacity": 17732
+    },
+    {
+      "name": "New York Knicks",
+      "location": "New York",
+      "arena": "Madison Square Garden",
+      "num_championships": 2,
+      "capacity": 19812
+    },
+    {
+      "name": "Philadelphia 76ers",
+      "location": "Philadelphia",
+      "arena": "Wells Fargo Center",
+      "num_championships": 3,
+      "capacity": 20478
+    },
+    {
+      "name": "Toronto Raptors",
+      "location": "Toronto",
+      "arena": "Scotiabank Arena",
+      "num_championships": 1,
+      "capacity": 19800
+    },
+    {
+      "name": "Chicago Bulls",
+      "location": "Chicago",
+      "arena": "United Center",
+      "num_championships": 6,
+      "capacity": 20917
+    },
+    {
+      "name": "Cleveland Cavaliers",
+      "location": "Cleveland",
+      "arena": "Rocket Mortgage FieldHouse",
+      "num_championships": 1,
+      "capacity": 19432
+    },
+    {
+      "name": "Detroit Pistons",
+      "location": "Detroit",
+      "arena": "Little Caesars Arena",
+      "num_championships": 3,
+      "capacity": 20491
+    },
+    {
+      "name": "Indiana Pacers",
+      "location": "Indianapolis",
+      "arena": "Gainbridge Fieldhouse",
+      "num_championships": 0,
+      "capacity": 17923
+    },
+    {
+      "name": "Milwaukee Bucks",
+      "location": "Milwaukee",
+      "arena": "Fiserv Forum",
+      "num_championships": 2,
+      "capacity": 17500
+    },
+    {
+      "name": "Atlanta Hawks",
+      "location": "Atlanta",
+      "arena": "State Farm Arena",
+      "num_championships": 1,
+      "capacity": 18118
+    },
+    {
+      "name": "Charlotte Hornets",
+      "location": "Charlotte",
+      "arena": "Spectrum Center",
+      "num_championships": 0,
+      "capacity": 19077
+    },
+    {
+      "name": "Miami Heat",
+      "location": "Miami",
+      "arena": "Kaseya Center",
+      "num_championships": 3,
+      "capacity": 19600
+    },
+    {
+      "name": "Orlando Magic",
+      "location": "Orlando",
+      "arena": "Amway Center",
+      "num_championships": 0,
+      "capacity": 18846
+    },
+    {
+      "name": "Washington Wizards",
+      "location": "Washington",
+      "arena": "Capital One Arena",
+      "num_championships": 1,
+      "capacity": 20356
+    },
+    {
+      "name": "Denver Nuggets",
+      "location": "Denver",
+      "arena": "Ball Arena",
+      "num_championships": 1,
+      "capacity": 19520
+    },
+    {
+      "name": "Minnesota Timberwolves",
+      "location": "Minneapolis",
+      "arena": "Target Center",
+      "num_championships": 0,
+      "capacity": 19000
+    },
+    {
+      "name": "Oklahoma City Thunder",
+      "location": "Oklahoma City",
+      "arena": "Paycom Center",
+      "num_championships": 0,
+      "capacity": 18203
+    },
+    {
+      "name": "Portland Trail Blazers",
+      "location": "Portland",
+      "arena": "Moda Center",
+      "num_championships": 1,
+      "capacity": 19441
+    },
+    {
+      "name": "Utah Jazz",
+      "location": "Salt Lake City",
+      "arena": "Delta Center",
+      "num_championships": 0,
+      "capacity": 18306
+    },
+    {
+      "name": "Golden State Warriors",
+      "location": "San Francisco",
+      "arena": "Chase Center",
+      "num_championships": 7,
+      "capacity": 18064
+    },
+    {
+      "name": "Los Angeles Clippers",
+      "location": "Los Angeles",
+      "arena": "Crypto.com Arena",
+      "num_championships": 0,
+      "capacity": 19068
+    },
+    {
+      "name": "Los Angeles Lakers",
+      "location": "Los Angeles",
+      "arena": "Crypto.com Arena",
+      "num_championships": 17,
+      "capacity": 19068
+    },
+    {
+      "name": "Phoenix Suns",
+      "location": "Phoenix",
+      "arena": "Footprint Center",
+      "num_championships": 0,
+      "capacity": 18055
+    },
+    {
+      "name": "Sacramento Kings",
+      "location": "Sacramento",
+      "arena": "Golden 1 Center",
+      "num_championships": 1,
+      "capacity": 17608
+    },
+    {
+      "name": "Dallas Mavericks",
+      "location": "Dallas",
+      "arena": "American Airlines Center",
+      "num_championships": 1,
+      "capacity": 19200
+    },
+    {
+      "name": "Houston Rockets",
+      "location": "Houston",
+      "arena": "Toyota Center",
+      "num_championships": 2,
+      "capacity": 18055
+    },
+    {
+      "name": "Memphis Grizzlies",
+      "location": "Memphis",
+      "arena": "FedExForum",
+      "num_championships": 0,
+      "capacity": 18119
+    },
+    {
+      "name": "New Orleans Pelicans",
+      "location": "New Orleans",
+      "arena": "Smoothie King Center",
+      "num_championships": 0,
+      "capacity": 16867
+    },
+    {
+      "name": "San Antonio Spurs",
+      "location": "San Antonio",
+      "arena": "AT&T Center",
+      "num_championships": 5,
+      "capacity": 18418
+    }
+  ]
